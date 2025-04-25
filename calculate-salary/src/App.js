@@ -8,10 +8,10 @@ function App() {
     <React.Fragment>
       <main>
         <Routes>
-            <>
-              <Route path="/" element={<Dashboard />} />
-              <Route path="/employee" element={<Employee />} />
-            </>
+          <>
+            <Route path="/" element={<Dashboard />} />
+            <Route path="/employee" element={<Employee />} />
+          </>
         </Routes>
       </main>
     </React.Fragment>
